@@ -5,11 +5,7 @@ body {
 }
 
 h1{
-    /* if a block elemnt has a width and it needs to center then use margin: 0 auto 0 auto; */
-  /* width: 10%;
- margin: 0 auto;
- 
- 16px = 100% = 1em; */
+
   font-weight: 400;
   margin: 50px auto 0 auto;
   color: #212121;
@@ -18,22 +14,22 @@ line-height: 2;
 }
 
 h2{
-    color: #3C6255;
+    color: #333;
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
 
 h3{
-    color: #578373;
+    color: #333;
     font-family: 'Montserrat', sans-serif;
 }
 
 .skill-row {
-   width: 50%;
+   width: 60%;
    margin: 100px auto;
    text-align: left;
-   line-height: 2;
+   line-height: 1.8;
 }
 
 .develop-img{
@@ -47,11 +43,11 @@ h3{
     width: 25%;
     float: right;
     margin-left : 30px;
-   
+    border-radius: 20px;
 }
 
 hr {
-   border-style: dotted #3C6255 6px;
+   border-style: dotted #333 6px;
    border-bottom: none;
    width: 4%;
    margin: 100px auto;
@@ -63,7 +59,7 @@ hr {
 }
 
 .btn {
-    background: #3C6255;
+    background: #333;
     background-image: -webkit-linear-gradient(top, #3C6255, #DAE2B6);
     background-image: -moz-linear-gradient(top, #3C6255, #DAE2B6);
     background-image: -ms-linear-gradient(top, #3C6255, #DAE2B6);
@@ -90,36 +86,32 @@ hr {
     text-decoration: none;
   }
 
-.contact-me{
-    line-height: 2;
-}
 
 .bottom-container {
-    background-color: #3C6255;
+    background-color: #333;
     margin-top: 50px;
     padding-top: 30px;
 }
 
-.footer-copyright{
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 10px 0;
-    margin-top: 12px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
 
-.contact-me a {
+.contact-me, .skill-row a {
     color: #FFFBE9;
     margin-right: 5px;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
     text-decoration: none;
     bottom: 20px;
 }
 
+.contact-me h2{
+    padding: 10px 20px 10px 20px;
+}
+
+.skill-row a {
+    color: #333;
+}
+
 a:hover{
-    color: #EAF6F6;
+    color: #DAE2B6;
 } 
 
 .develop-skill-description{
@@ -196,7 +188,7 @@ a:hover{
     display: block; /* Center the image */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
 .content p {
@@ -222,3 +214,9 @@ a:hover{
 .content li {
     margin-right: 20px; /* Add spacing between list items */
 }
+
+
+/*project page CSS*/
+/* .skills ol{
+   list-style-type: none;
+} */
