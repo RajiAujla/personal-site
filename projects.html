@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Rajwinder personal site</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- <link rel="icon" href="favicon.ico"> -->
-  
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> -->
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="navbar">
-        <div class="navbar-left">
-            <a href="file:///Users/rajwinderkaur/Documents/workspace/PersonelWebsite/personal-site/index.html#home">Rajwinder Kaur</a>
-        </div>
-        <div class="navbar-right">
-            <ul>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="Resume.pdf">Resume</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
+      <div class="navbar-left">
+        <a
+          href="file:///Users/rajwinderkaur/Documents/workspace/PersonelWebsite/personal-site/index.html#home"
+          >Rajwinder Kaur</a
+        >
+      </div>
+      <div class="navbar-right">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="Resume.pdf">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
     </div>
 
+    <div class="projects-type">
+      <ul>
+        <li><a href="#personal-projects">Personal Projects</a></li>
+        <li><a href="#organization">Organization projects</a></li>
+        <li><a href="#open-source">Open-Source Projects</a></li>
+      </ul>
 
-    <div>
-        <div class="skills">
-          <h2>Projects.</h2>
+      <div>
+        <section id="personal-projects">
+          <h2>Personal Projects</h2>
+
           <div class="skill-row">
-            <img class="debug-img" src="images/dice.png" alt="code-img">
-            <h3><a href="https://github.com/RajiAujla/Playfull-Challenge">Dice Game</a></h3>
-            <h3><b>Technology:</b> Javascript, HTML, CSS</h3>
-            <p>Dice is game to play between 2 players. In case you want to decide between two players who will be winner then refresh the page and roll the dice to know the winner.</p>
+            <img
+              class="develop-img"
+              src="./images/reciepe.jpg"
+              alt="code-img"
+            />
+            <h3>
+              Yummy
+              <a href="https://github.com/LeticiaLBarbosa/Yummy"
+                >(GitHub Link)</a
+              >
+            </h3>
+            <h3>Technology: WPF, LINQ, .NET Framework, SQLite</h3>
+            <p>
+              Yummy is nothing more than a recipe catalog with some additional
+              features that can assist both in the process of executing a recipe
+              as in all stages of its planning. With Yummy users can search for
+              recipes, save them locally, classify them in categories such as
+              snacks, dinner, dessert, and starter.
+            </p>
           </div>
-          <hr>
+          <hr />
           <div class="skill-row">
-            <img class="develop-img" src="https://media3.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif?cid=ecf05e47xksgyxcmdnj453rkwgwq5mwbppb03le8pw8mxw1b&rid=giphy.gif&ct=g" alt="code-img">
-            <h3><a href="https://github.com/LeticiaLBarbosa/Yummy">Yummy</a></h3>
-            <h3><b>Technology:</b> WPF, LINQ, .NET Framework, SQLite</h3>
-            <p>Yummy is nothing more than a recipe catalogwith some additional features that can assist both in the process of executing a recipe as in all stages of its planning. With Yummy users can search for recipes, save them locally, classify them in categories such as snacks, dinner, dessert, and starter.</p>
-          </div>
-          <hr>
-          <div class="skill-row">
-            <img class="debug-img" src="images/debug.png" alt="debug-img">
-            <h3><a href="https://github.com/ssingh2937/DigiDeals">DigiDeals</a></h3>
+            <img
+              class="debug-img"
+              src="./images/digitaldeals.png"
+              alt="debug-img"
+            />
+            <h3>
+              DigiDeals
+              <a href="https://github.com/ssingh2937/DigiDeals"
+                >(GitHub Link)</a
+              >
+            </h3>
             <h3><b>Technology:</b> Java, SQLite</h3>
-            <p>Digi deals application is the android app specially designed to sell digital products in the market. . The app will be used to order the items for curbside pickup from the store location. The user can view the items in the store according to their availability and then order from the app.</p>
+            <p>
+              Digi deals application is the android app specially designed to
+              sell digital products in the market. The app will be used to order
+              the items for curbside pickup from the store location. The user
+              can view the items in the store according to their availability
+              and then order from the app.
+            </p>
           </div>
-        </div>
+        </section>
 
-        <hr>
+        <section id="organization">
+          <h2>Organization Projects</h2>
+
+          <div class="skill-row">
+            <img class="develop-img" src="./images/code.jpg" alt="code-img" />
+            <h3>Products Application</h3>
+            <h3><b>Technology:</b> Java (Spring boot framework), PostgreSQL</h3>
+            <p>
+              A project working currently in the organization used to maintain
+              officials records about agricultural sites in system. <br />
+              Support user on any issues and work on monthly sprints to develop
+              more advance features in the application as per the requirement.
+            </p>
+          </div>
+          <hr />
+          <div class="skill-row">
+            <img class="debug-img" src="./images/code.jpg" alt="code-img" />
+            <h3>Reconcilliation Sytem</h3>
+            <h3>
+              <b>Technology:</b> Java (Hibernate, Spring Boot Framework), SSMS,
+              ReactJS
+            </h3>
+            <p>
+              Reconciliation system is a financial process used to ensure that
+              two sets of records or accounts are consistent and accurate.
+              <br />
+              Build interactive user-interface using ReactJS. <br />
+              Perform integration with back-end services and worked on user
+              interface using material-UI. <br />
+              Implement REST APIs using Spring Boot. Hibernate – ORM
+            </p>
+          </div>
+        </section>
+
+        <section id="open-source">
+          <h2>Open-Source Projects</h2>
+
+          <div class="skill-row">
+            <img class="develop-img" src="./images/AxiomBooks.png" />
+            <h3>
+              Book-Reader-Website
+              <a href="https://github.com/Vikleoboy/book-reader-website"
+                >(GitHub Link)</a
+              >
+            </h3>
+            <h3>Technology: ReactJs, TypeScript</h3>
+            <p>
+              Contributed to open-source project by fixing CSS issues to improve
+              UI consistency and responsiveness. <br />
+              This website is used to customize and organize your digital
+              library effortlessly with Axiom Books. Utilize collections to
+              categorize your books exactly how you prefer—whether by genre,
+              mood, or favorites.
+            </p>
+          </div>
+        </section>
       </div>
-      
-      
-     
-</body>
+    </div>
+  </body>
 </html>
